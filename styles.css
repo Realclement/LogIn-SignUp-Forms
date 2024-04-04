@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(dev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wrapper {
+    background: transparent;
+    color: #fff;
+    border-radius: 12px;
+    padding: 40px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 420px;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+   width: 420px;
+   height: 50px; 
+   background: transparent;
+   border: none;
+   outline: none;
+   border: 2px solid rgba(255, 255, 255, .2);
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+   padding-left: 20px;
+}
+.input-box input::placeholder {
+    color:#fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    transform: translate(-10%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+ 
+.wrapper .btn {
+    width: 420px;
+    height: 42px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.wrapper .btn:hover {
+    opacity: 0.7;
+}
+
+.wrapper .btn:active {
+    opacity: 0.4;
+}
+
+.wrapper .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .terms-condition {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.wrapper .LogIn-Link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.LogIn-Link a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.LogIn-Link a:hover {
+    text-decoration: underline;
+}
